@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "huggingsafe"
+version = "0.1.0"
+description = ""
+authors = ["csmizzle <chrissmith700@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+scrapy = "^2.10.0"
+modelscan = {git = "https://github.com/protectai/modelscan.git"}
+scrapy-playwright = "^0.0.30"
+pandas = "^2.0.3"
+fire = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
